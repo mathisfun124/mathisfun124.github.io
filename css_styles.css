@@ -1,0 +1,343 @@
+/* eeSiteKit Site1201 Theme Styles - February 2012 */
+
+@media screen, projection {
+
+body {
+	background: #003a70 url("/lincoln/site/images/Lincoln_Grad_2018.jpg") repeat-x top left fixed;
+	padding: 15px 0;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	min-width: 760px;
+	max-width: 80em;
+	margin: 0 auto;
+}
+
+#nav_top {
+	color: #777;
+}
+
+#nav_top a,
+#nav_top a:visited,
+#nav_top a:active {
+	color: #ffb500;
+}
+
+#nav_top a:hover,
+#nav_top a:visited:hover {
+	color: #fff;
+}
+
+span.nav_top_pipe {
+	padding: 0 8px;
+}
+
+
+/* We don't like webkit's default search fields  */ 
+input[type="search"] { -webkit-appearance: textfield; } 
+
+header {
+	background: #fff url("http://www.sjusd.org/lincoln/site/images/Lincoln_High_Banner_2018_web.jpg") no-repeat top left;
+	height: 280px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+#header_content {
+	padding: 25px 25px 0 25px;
+	color: #FFF;
+	text-align: right;
+}
+
+#header_right {
+	float: right;
+	text-align: right;
+}
+
+#header_content h2 {
+	float: left;
+}
+
+#header_content h2 a,
+#header_content h2 a:visited,
+#header_content h2 a:active {
+	color: #eee;
+	font-size: 100%;
+}
+
+#header_content h2 a:hover,
+#header_content h2 a:visited:hover {
+	color: #fff;
+}
+
+/* MAIN CONTENT AREA */
+.ym-column {
+	border-top: #003a70 1px solid;
+	background: #fff;
+}
+
+p.breadcrumbs {
+	margin: 6px 0 9px 0;
+	font-size: 11px;
+	color: #333;
+}
+
+p.breadcrumbs a,
+p.breadcrumbs a:visited,
+p.breadcrumbs a:active {
+	color: #666;
+}
+
+p.breadcrumbs a:hover,
+p.breadcrumbs a:visited:hover {
+	color: #999;
+}
+
+p.print {
+	float: right;
+	margin: 0;
+}
+
+a,
+a:visited,
+a:active {
+	color: #f08115;
+	background: transparent;
+	text-decoration: none;
+}
+
+a:hover,
+a:visited:hover,
+a:focus {
+	background: transparent;
+	color: #003a70;
+	text-decoration: none;
+	outline: 0 none;
+}
+
+.callout_box {float: right;width: 180px;font-size: .87em;margin: 0 -5px 15px 15px;padding: 15px 10px 10px 15px;border: thin solid #cccba3;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+
+footer {
+	color: #fff;
+	background: #ffb500;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+#footer_content {
+	padding: 15px 25px 5px 25px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer a,
+footer a:visited,
+footer a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover,
+footer a:visited:hover {
+	color: #fff;
+}
+
+.footer_pipe {
+	padding: 0 8px;
+}
+
+#credits {
+	color: #fff;
+	font-size: 10px;
+}
+
+#credits_content {
+	padding: 15px 25px 10px 25px;
+}
+
+#credits a,
+#credits a:visited,
+#credits a:active {
+	color: #fff;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+#credits a:hover,
+#credits a:visited:hover {
+	color: #fff;
+}
+
+.credits_pipe {
+	padding: 0 8px;
+}
+
+/* CONTENT STYLES */
+
+h1,h3,h4,h5,h6 {
+	font-family: Arial, Verdana, sans-serif;
+	font-weight: normal;
+	color: #f08115;
+	margin: 0 0 0.15em 0;
+}
+
+
+h2 {
+	font-family: Arial, Verdana, sans-serif;
+	font-weight: normal;
+	color: #003a70;
+	margin: 0 0 0.15em 0;
+}
+
+h1 {font-size: 170%; margin: 15px 0 15px 0;}
+h2 {font-size: 140%;}
+h3 {font-size: 110%;}
+h4 {font-size: 110%;}
+h5 {font-size: 100%;}
+h6 {font-size: 90%;}
+
+p {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+/* SUPERFISH NAVIGATION STYLES */
+
+nav {
+	border-top: #f08115 1px solid;
+        border-bottom: #ffb500 1px solid;
+}
+
+.sf-menu li .selected {
+	font-weight: bold;
+}
+
+.sf-menu {
+	background: #003a70;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.sf-menu a, 
+.sf-menu a:visited,
+.sf-menu a:active {
+	color: #fff;
+}
+
+.sf-menu a:hover,
+.sf-menu a:visited:hover {
+	color: #003a70;
+}
+
+.sf-menu li li,
+.sf-menu li li li {
+	background: #f08115;
+	border-top: 1px solid #ffb500;
+	font-size: .9em;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background: #ffb500;
+	outline: 0;
+}
+
+.sf-menu a {
+	border-left: 1px solid #f08115;
+}
+
+.sf-menu a.no_left_border {
+	border-left: 0;
+}
+
+.no_mingle {
+	clear: both;
+}
+
+/* SUB-NAVIGATION STYLES - SIDEBAR NAVGATION */
+
+.ym-col3 .selected {
+	font-weight: bold;
+}
+
+.ym-col3 ul {
+	margin: 4px 0 0 0;
+}
+
+.ym-col3 li {
+	list-style-type: none;
+	margin-left: 0;
+	margin-bottom: .3em;
+}
+
+.ym-col3 li ul li {
+	list-style-type: none;
+	margin-left: .8em;
+	margin-bottom: .3em;
+}co
+
+/* MODAL WINDOW */
+*:focus {outline: none;}
+.modal {background-color: #fff;display: none;width: 300px;padding: 25px;text-align: left;border: 1px solid #ddd;z-index: +10;opacity: 0.90;border-radius: 6px;box-shadow: 0px 0px 15px #0f2231;}
+.modal h3 {color: #89172b;margin-bottom: 4px;font-weight: normal;padding: 5px;text-transform: lowercase;}
+
+
+/* YAML FORMS OVERRIDES AND ADDITIONS */
+
+	.ym-form div.ym-fbox-button {
+		background: transparent;
+		border-top: none;
+	}
+
+.required {color: #003a70;font-weight: bold;}
+.ym-form-pipe {padding: 0 4px;}
+.ym-form-instructions {
+	margin: 0 0 0 15px;
+}
+
+/* NAV TOP SEARCH FORM */
+
+#search_form input.default-value {
+	background: #003a70;
+	border: #777 1polid;
+	padding: 4px 4px;
+	font-weight: normal;
+	font-size: 90%;
+	text-align: right;
+	color: #fff;
+}
+
+div#search_fields {
+	float: right;
+	margin: -6px 5px 6px 10px;
+}
+
+span.button_search input {
+	padding-left: 4px;
+	vertical-align: bottom;
+	margin-bottom: 2px;
+}
+
+div#search_results {
+	height: 900px;
+	width: 520px;
+	overflow: hidden;
+}
+
+input#google_button {
+	vertical-align: bottom;
+	margin-bottom: 3px;
+}
+
+/* HOME SLIDE SHOW */
+#home_slide_show {padding: 15px 0;height: 300px;}
+.slide {display: none;}
+/* District Alert System */
+.district_alert {margin: 15px 0 15px 0;border: 1px #d0290d solid;border-radius: 4px;box-shadow: 0 0 15px rgba(0,0,0,.30);padding: 0 15px 15px 15px;background: #ffffff;width: 390px;}
+.district_alert h1 {color: #d0290d; font-size: 20px; font-weight: normal; padding-bottom: 5px;}
+.district_alert p { font-size: 11px;}
+
+}
+
+}
+
